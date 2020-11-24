@@ -20,11 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22cc45ff-229e-40c9-abe3-8368ee54a2da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/go.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/deck.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/_decktest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/cards.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/deck_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evenodd/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapes/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/deck.go" beforeDir="false" afterPath="$PROJECT_DIR$/cards/deck.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cards/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,61 +63,83 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Build.cards">
-    <configuration name="cards" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+  <component name="RunManager" selected="Go Build.files">
+    <configuration name="files" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="go" />
-      <working_directory value="$PROJECT_DIR$/cards" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/cards/main.go $PROJECT_DIR$/cards/deck.go" />
-      <package value="$PROJECT_DIR$/cards" />
-      <directory value="$PROJECT_DIR$/cards" />
+      <working_directory value="$PROJECT_DIR$/files" />
+      <parameters value="file.txt" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/files/main.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/cards/main.go" />
-      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/interfaces/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/http/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/shapes/main.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/helloworld/main.go" />
-      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/maps/main.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.cards" />
       <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build main.go (4)" />
+      <item itemvalue="Go Build.go build main.go (5)" />
+      <item itemvalue="Go Build.files" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.cards" />
+        <item itemvalue="Go Build.files" />
+        <item itemvalue="Go Build.go build main.go (5)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -118,33 +149,61 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="200" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606076248928">
-      <screen x="0" y="25" width="1920" height="1055" />
+    <state x="609" y="246" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606202279459">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="362" y="200" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.25.1920.1055/0.25.1920.1055/1920.25.1920.1055@0.25.1920.1055" timestamp="1606076248928" />
+    <state x="609" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1606202279459" />
     <state x="693" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606068968682">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="693" y="358" key="#com.intellij.fileTypes.FileTypeChooser/-1920.25.1920.1055/0.25.1920.1055/1920.25.1920.1055@0.25.1920.1055" timestamp="1606068968682" />
-    <state width="1707" height="253" key="GridCell.Tab.0.bottom" timestamp="1606083569207">
-      <screen x="0" y="25" width="1920" height="1055" />
+    <state width="797" height="277" key="GridCell.Tab.0.bottom" timestamp="1606202374382">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
+    <state width="798" height="277" key="GridCell.Tab.0.bottom/-133.-1055.1920.1055/1787.-1055.1920.1055/0.25.1680.1025@-133.-1055.1920.1055" timestamp="1606150042358" />
     <state width="1707" height="253" key="GridCell.Tab.0.bottom/-1920.25.1920.1055/0.25.1920.1055/1920.25.1920.1055@0.25.1920.1055" timestamp="1606083569207" />
-    <state width="1707" height="253" key="GridCell.Tab.0.center" timestamp="1606083569206">
-      <screen x="0" y="25" width="1920" height="1055" />
+    <state width="797" height="277" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1606202374382" />
+    <state width="797" height="277" key="GridCell.Tab.0.center" timestamp="1606202374381">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
+    <state width="798" height="277" key="GridCell.Tab.0.center/-133.-1055.1920.1055/1787.-1055.1920.1055/0.25.1680.1025@-133.-1055.1920.1055" timestamp="1606150042354" />
     <state width="1707" height="253" key="GridCell.Tab.0.center/-1920.25.1920.1055/0.25.1920.1055/1920.25.1920.1055@0.25.1920.1055" timestamp="1606083569206" />
-    <state width="1707" height="253" key="GridCell.Tab.0.left" timestamp="1606083569204">
-      <screen x="0" y="25" width="1920" height="1055" />
+    <state width="797" height="277" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1606202374381" />
+    <state width="797" height="277" key="GridCell.Tab.0.left" timestamp="1606202374381">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
+    <state width="798" height="277" key="GridCell.Tab.0.left/-133.-1055.1920.1055/1787.-1055.1920.1055/0.25.1680.1025@-133.-1055.1920.1055" timestamp="1606150042349" />
     <state width="1707" height="253" key="GridCell.Tab.0.left/-1920.25.1920.1055/0.25.1920.1055/1920.25.1920.1055@0.25.1920.1055" timestamp="1606083569204" />
-    <state width="1707" height="253" key="GridCell.Tab.0.right" timestamp="1606083569206">
-      <screen x="0" y="25" width="1920" height="1055" />
+    <state width="797" height="277" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1606202374381" />
+    <state width="797" height="277" key="GridCell.Tab.0.right" timestamp="1606202374382">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
+    <state width="798" height="277" key="GridCell.Tab.0.right/-133.-1055.1920.1055/1787.-1055.1920.1055/0.25.1680.1025@-133.-1055.1920.1055" timestamp="1606150042355" />
     <state width="1707" height="253" key="GridCell.Tab.0.right/-1920.25.1920.1055/0.25.1920.1055/1920.25.1920.1055@0.25.1920.1055" timestamp="1606083569206" />
+    <state width="797" height="277" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1606202374382" />
     <state x="456" y="188" key="SettingsEditor" timestamp="1606069048319">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="456" y="188" key="SettingsEditor/-1920.25.1920.1055/0.25.1920.1055/1920.25.1920.1055@0.25.1920.1055" timestamp="1606069048319" />
+    <state x="923" y="173" width="674" height="729" key="find.popup" timestamp="1606201208031">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="923" y="173" width="674" height="729" key="find.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1606201208031" />
+    <state x="923" y="250" width="672" height="678" key="search.everywhere.popup" timestamp="1606191434773">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="923" y="250" width="672" height="678" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1606191434773" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/structs/main.go</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
